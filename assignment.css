@@ -1,0 +1,237 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+/**its my head**/
+header{
+    background-image: url('images/banner/banner2.png');
+    position: absolute;
+    height: 800px;
+    width: 1350px;
+    top: 0;
+    left:0;
+    right: 0;
+    background-repeat: no-repeat;
+}
+.header{
+position: absolute;
+width: 525px;
+height: 228px;
+right: 370px;
+top: 110px;
+font-weight: 700;
+font-size: 65px;
+line-height: 76px;
+text-align: left;
+color: black;
+}
+.header-pr{
+    position: absolute;
+    top: 380px;
+    right: 370px;
+    text-align: left;
+    font-weight: 400;
+    font-size: 16px;
+    width: 525px;
+    height: 228px;
+    line-height: 26px;color: rgba(0, 0, 0, 0.712);
+}
+.btn-1{
+    position: absolute;
+    top: 500px;
+    width: 125px;
+    height: 40px;
+    right: 770px;
+    border-radius: 4px;
+    border: none;
+    background-color: rgba(255, 41, 34, 0.911);
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 100;
+}
+.btn-1:hover{
+    text-decoration: none;
+    display: inline-block;
+    background-color: rgb(255, 102, 0);
+}
+/**main section**/
+.img-main{
+    position: absolute;
+    width: 550px;
+    height: 700px;
+    left: 210px;
+    top: 920px;
+}
+.main{
+position: absolute;
+width: 288px;
+height: 94px;
+left: 820px;
+top: 1178px;
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 47px;
+}
+.main-pr{
+    position: absolute;
+    left: 820px;
+    top: 1300px;
+    width: 420px;
+    height: 80px;
+    font-size: 16px;
+    line-height: 26px;
+}
+.main-div{
+    position: absolute;
+    top: 1415px;
+    left: 820px;
+    width: 349px;
+    height: 163px;
+}
+ul{
+    list-style: none;
+}
+.icon-1{
+    position: absolute;
+    height: 15px;
+    left:  18px;
+}
+.main-plans{
+    position: absolute;
+    top: 1670px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
+    width: 180px;
+    height: 50px;
+    left: 660px;
+}
+.main-text{
+    top:1780px;
+    left: 200px;
+    position: absolute;
+    display: flex;
+    width: 1000px;
+    height: 300px;
+    text-align: center;
+}
+.main-text-1{
+  width: 270px;
+  height: 20px;
+  text-align: center;
+}
+.main-end-full{
+    position: absolute;
+    top: 2100px;
+    width: 1070px;
+    height: 250px;
+    background-image:linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(48, 28, 151, 0.356) 52%, rgba(9, 130, 210, 0.87) 100%) ;
+    border-radius: 10px;
+    left: 150px;
+}
+.main-end-text{
+    margin: 60px;
+    margin-bottom: 0;
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 45px;
+}
+.btn-2{
+    margin-left: 60px;
+    margin-top: 30px;
+    width: 125px;
+    height: 40px;
+    border-radius: 3px;
+    border-style: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgba(255, 41, 34, 0.911);
+}
+.btn-2:hover{
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+}
+/**web footer**/
+footer{
+    position: absolute;
+    width: 1150px;
+    height: 355px;
+    top: 2440px;
+    padding: 80px;
+    background-color: rgba(0, 0, 0, 0.856);
+    color: #ffffff;
+    border-radius: 10px;
+    margin: 10px;
+    margin-left: 20px;
+}
+.futuer{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 50px;
+    color: rgb(182, 136, 255);
+}
+.futuer-p{
+    width: 416px;
+    height: 80px;
+}
+.futuer-1{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    width: 485px;
+    height: 78px;
+}
+.footer-2{
+    position: absolute;
+    width: 325px;
+    height: 204px;
+    left: 900px;
+    top: 2550px;
+    color: rgb(182, 136, 255);
+    font-size:25px ;
+    font-weight: 600;
+    line-height: 30px;
+    border-radius: 5px;
+}
+.subs{
+    width: 300px;
+    height: 64px;
+    border-radius: 10px;
+    background-color:rgba(0, 0, 0, 0.795) ;
+    font-weight: 500;
+    font-size: 18px;
+    border-color: #ffffff;
+    color: #ffffff;
+}
+textarea{
+    width: 300px;
+    height: 100px;
+    border-radius: 10px;
+    background-color:rgba(0, 0, 0, 0.795) ;
+    font-weight: 500;
+    font-size: 18px;
+    border-color: #ffffff;
+    color: #ffffff;
+}
+.submit-btn{
+    width: 125px;
+    height: 40px;
+    right: 770px;
+    border-radius: 4px;
+    border: none;
+    background-color:rgb(138, 73, 243);
+    font-size: 20px;
+    font-weight: 500;
+    color: #ffffff;
+
+}
+.submit-btn:hover{
+    background-color: rgb(84, 15, 194);
+    text-decoration: none;
+    display: inline-block;
+}
+/**END**/
+
+
